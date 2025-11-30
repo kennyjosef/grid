@@ -23,6 +23,7 @@ document.getElementById("calcBtn").addEventListener("click", function () {
     // Validate DAY
     if (!day.value || day.value < 1 || day.value > 31) {
         day.classList.add("error-border");
+        day.classList.add('items-error');
         dayError.innerText = "Must be a valid day";
         hasError = true;
     }
