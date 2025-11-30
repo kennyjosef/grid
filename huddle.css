@@ -52,6 +52,9 @@ nav img{
     cursor: pointer;
     color: hsl(257, 40%, 49%);
 }
+icon-icon{
+    color: blue;
+}
 @media (max-width: 768px) {
     .container{
         height: 100%;
